@@ -6,10 +6,10 @@ const QuoteSection = () => {
       className="bg-cover bg-center bg-black/50 min-h-screen flex items-center justify-center px-4 py-10"
       style={{ backgroundImage: "url('/assets/office-shifting.jpg')" }}
     >
-      <div className="max-w-7xl w-full grid lg:grid-cols-2 gap-8 items-center bg-black/40 lg:bg-transparent backdrop-blur-sm rounded-xl lg:rounded-none p-6">
+      <div className="max-w-7xl w-full grid grid-cols-1 md:grid-cols-2 gap-8 items-center bg-black/40 lg:bg-transparent backdrop-blur-sm rounded-xl lg:rounded-none p-6">
         {/* LEFT SIDE */}
         <div className="text-white space-y-4">
-          <h1 className="text-3xl lg:text-4xl font-bold">
+          <h1 className="text-3xl md:text-4xl font-bold">
             PACKSHIFTS - INDIA'S BEST PACKERS AND MOVERS COMPANY
           </h1>
           <h2 className="text-xl font-semibold">
@@ -21,11 +21,11 @@ const QuoteSection = () => {
 
           {/* Badges */}
           <div className="flex gap-4 mt-6">
-            <img src="/assets/iso.png" alt="ISO" className="h-124" />
+            <img src="/assets/iso.png" alt="ISO" className="h-24 md:h-32" />
             <img
               src="/assets/satisfaction.png"
               alt="Guaranteed"
-              className="h-26"
+              className="h-16 md:h-24"
             />
           </div>
         </div>
