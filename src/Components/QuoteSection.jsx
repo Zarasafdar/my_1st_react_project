@@ -20,12 +20,12 @@ const QuoteSection = () => {
           </p>
 
           {/* Badges */}
-          <div className="flex gap-4 mt-6">
+          <div className="flex gap-4 mt-6 items-center justify-center">
             <img src="/assets/iso.png" alt="ISO" className="h-24 md:h-32" />
             <img
               src="/assets/satisfaction.png"
               alt="Guaranteed"
-              className="h-16 md:h-24"
+              className="h-24 md:h-32"
             />
           </div>
         </div>
@@ -64,11 +64,11 @@ const QuoteSection = () => {
             />
 
             {/* Captcha Row */}
-            <div className="flex gap-2">
+            <div className="space-y-2">
               <input
                 type="text"
                 placeholder="Captcha"
-                className="flex-1 border rounded px-4 py-2"
+                className="w-full border rounded px-4 py-2"
               />
               <div className="bg-yellow-400 text-center px-4 py-2 rounded font-bold text-white select-none">
                 668962
