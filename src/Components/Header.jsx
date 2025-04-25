@@ -18,7 +18,7 @@ const Header = () => {
             href="tel:8287244244"
             className="flex items-center px-4 py-2 rounded-l-3xl rounded-tr-2xl font-bold text-base md:text-lg shadow transition animate-blink"
           >
-            <FaPhoneVolume className="mr-3" />
+            <FaPhoneVolume className="mr-2" />
             8287 244 244
           </a>
 
